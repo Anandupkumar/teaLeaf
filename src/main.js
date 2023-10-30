@@ -17,4 +17,6 @@ import router from "@/router";
 
 // firebase.initializeApp(firebaseConfig);
 
-createApp(App).use(router).mount("#app");
+createApp(App)
+.use(router)
+.mount("#app");
