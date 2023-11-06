@@ -106,7 +106,7 @@ const verifyOTP = (e) => {
          .signInWithCredential(credential)
          .then((userCredential) => {
             // User successfully verified and logged in
-            console.log(userCredential);
+            console.log(userCredential.user._delegate.accessToken);
             checkOtp(userCredential.user._delegate.accessToken);
             const user = userCredential.user;
             console.log("User verified and logged in:", user.uid);

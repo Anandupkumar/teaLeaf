@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const url = 'http://localhost:3000/api/'; //local 
+// const url = 'http://localhost:3000/api/'; //local 
+const url = 'http://localhost:8000/api/'; //local laravel
 
 export default {
 
